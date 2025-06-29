@@ -115,9 +115,7 @@
 | 4    | ![Endcap projection](docs/images/4.png)   | **Endcap projection**: тот же event в r‑φ; концентрические overlay‑кольца позволяют быстро чекнуть ∆z и радиальный вынос.          |
 | 5    | ![Feedback panel](docs/images/5.png)      | **Feedback dialog**: сводка после `Ctrl`: displaced‑vertex check (2 matches) и combo‑скрин barrel + endcap.                        |
 
-\-------------------------------------- | --------------------- |
-\| Активация линий / Activate guide lines |                       |
-\| Совмещение точек / Align fiducials     |                       |
+
 
 ---
 
