@@ -1,7 +1,7 @@
 # LineGuide — инструмент выравнивания линий для геометрии детекторов CERN
 
 [Репозиторий на GitHub](https://github.com/antonstrobe/OverlayTool)
-Лицензия — MIT (при необходимости замените своей).
+Лицензия — MIT
 
 ---
 
