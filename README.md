@@ -3,7 +3,7 @@
 
 [Репозиторий на GitHub](https://github.com/antonstrobe/OverlayTool)  
 Лицензия — MIT
-
+![UI hint](app.ico) 
 ---
 
 ## Описание (RU)
