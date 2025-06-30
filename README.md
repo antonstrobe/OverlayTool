@@ -3,7 +3,7 @@
 [Репозиторий на GitHub](https://github.com/antonstrobe/OverlayTool)  
 Лицензия - MIT
 ![UI hint](app.ico) 
-![UI hint]([app.ico](https://en.wikipedia.org/wiki/Large_Hadron_Collider#/media/File:Views_of_the_LHC_tunnel_sector_3-4,_tirage_2.jpg)) 
+![UI hint](https://upload.wikimedia.org/wikipedia/commons/4/46/Views_of_the_LHC_tunnel_sector_3-4%2C_tirage_2.jpg) 
 ---
 
 ## Описание (RU)
