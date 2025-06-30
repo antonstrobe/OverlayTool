@@ -1,14 +1,14 @@
 
-# LineGuide — утилита для выравнивания линий при калибровке детекторов Большого адронного коллайдера (CERN)
+# LineGuide - утилита для выравнивания линий при калибровке детекторов Большого адронного коллайдера (CERN)
 
 [Репозиторий на GitHub](https://github.com/antonstrobe/OverlayTool)  
-Лицензия — MIT
+Лицензия - MIT
 ![UI hint](app.ico) 
 ---
 
 ## Описание (RU)
 
-**LineGuide** — небольшая утилита захвата экрана и наложения направляющих линий, созданная для инженерных групп CERN. Она упрощает ручное совмещение контрольных точек при калибровке и выравнивании детекторов Большого адронного коллайдера (LHC), ускоряя расчёт геометрических констант и повышая точность трек‑реконструкции.
+**LineGuide** - небольшая утилита захвата экрана и наложения направляющих линий, созданная для инженерных групп CERN. Она упрощает ручное совмещение контрольных точек при калибровке и выравнивании детекторов Большого адронного коллайдера (LHC), ускоряя расчёт геометрических констант и повышая точность трек‑реконструкции.
 
 ### Возможности
 
@@ -41,7 +41,7 @@ build.bat        :: получаем dist\overlaytool.exe
 ---
 
 ## Description (EN)
-# LineGuide — a line alignment utility for detector calibration at the Large Hadron Collider (CERN)
+# LineGuide - a line alignment utility for detector calibration at the Large Hadron Collider (CERN)
 **LineGuide** is a lightweight screen‑overlay utility engineered at CERN to speed up manual alignment of detector fiducials for the Large Hadron Collider. By drawing razor‑sharp guide lines on top of any image it helps engineers match reference points faster, improving geometry recognition and reducing calibration time.
 
 ### Features
@@ -59,7 +59,7 @@ pip install -r requirements.txt
 
 ### Build .exe on Windows
 
-A single **build.bat** script wraps PyInstaller, stamps the build version and embeds the icon—no manual commands needed.
+A single **build.bat** script wraps PyInstaller, stamps the build version and embeds the icon-no manual commands needed.
 
 ```cmd
 git clone https://github.com/antonstrobe/OverlayTool.git
@@ -82,11 +82,11 @@ build.bat        :: dist\overlaytool.exe ready
 
 | Step | Screenshot | CERN‑slang Commentary |
 | ---- | ---------- | --------------------- |
-| 1 | ![UI hint](docs/images/1.png) | **Tooltip**: *Ctrl — фиксировать*, *Shift — зачистить*; всплывает перед стартом сессии. |
-| 2 | ![Barrel view — raw](docs/images/2.png) | **Barrel view**: черновые три track‑лайна по Pixel/Strip hits; вершина пока грубая. |
-| 3 | ![Barrel view — tuned](docs/images/3.png) | **Fine‑tune**: линии «дожаты» до общего vertex; красный cross‑hair — ROI, зелёный circle — candidate. |
+| 1 | ![UI hint](docs/images/1.png) | **Tooltip**: *Ctrl - фиксировать*, *Shift - зачистить*; всплывает перед стартом сессии. |
+| 2 | ![Barrel view - raw](docs/images/2.png) | **Barrel view**: черновые три track‑лайна по Pixel/Strip hits; вершина пока грубая. |
+| 3 | ![Barrel view - tuned](docs/images/3.png) | **Fine‑tune**: линии «дожаты» до общего vertex; красный cross‑hair - ROI, зелёный circle - candidate. |
 | 4 | ![Endcap projection](docs/images/4.png) | **Endcap projection**: r‑φ проекция, overlay‑кольца помогают контролировать ∆z. |
-| 5 | ![Feedback panel](docs/images/5.png) | **Feedback dialog**: после Ctrl — displaced‑vertex check (2 matches) и комбинированный скрин. |
+| 5 | ![Feedback panel](docs/images/5.png) | **Feedback dialog**: после Ctrl - displaced‑vertex check (2 matches) и комбинированный скрин. |
 
 ---
 
