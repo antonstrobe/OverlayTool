@@ -1,5 +1,5 @@
 
-# LineGuide — инструмент выравнивания линий для геометрии детекторов CERN
+# LineGuide — утилита для выравнивания линий при калибровке детекторов Большого адронного коллайдера (CERN)
 
 [Репозиторий на GitHub](https://github.com/antonstrobe/OverlayTool)  
 Лицензия — MIT
@@ -41,7 +41,7 @@ build.bat        :: получаем dist\overlaytool.exe
 ---
 
 ## Description (EN)
-
+# LineGuide — a line alignment utility for detector calibration at the Large Hadron Collider (CERN)
 **LineGuide** is a lightweight screen‑overlay utility engineered at CERN to speed up manual alignment of detector fiducials for the Large Hadron Collider. By drawing razor‑sharp guide lines on top of any image it helps engineers match reference points faster, improving geometry recognition and reducing calibration time.
 
 ### Features
